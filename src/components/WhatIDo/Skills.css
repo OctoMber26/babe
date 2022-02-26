@@ -1,0 +1,298 @@
+@media (min-width: 1025px) and (max-width: 1280px){
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .skills{
+        width: 100%;
+        display: flex;
+    }
+
+    .skills_icon{
+        position: relative;
+        width: 50%;
+        height: 60vh;
+        margin-top: 100px;
+        background-color: plum;
+        margin-left: 50px;
+        z-index: -1;
+        padding: 10px;
+    }
+
+    .laptop{
+        position: relative;
+        width: 600px;
+        margin-left: -30px;
+        z-index: 1;
+    }
+
+    .photoshop{
+        position: relative;
+        width: 70px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        transform: rotate(10deg);
+        z-index: -1;
+    }
+
+    .illustrator{
+        position: relative;
+        width: 150px;
+        margin-bottom: 10px;
+        margin-left: 300px;
+        transform: rotate(-35deg);
+        margin-top: -100px;
+        z-index: -1;
+    }
+
+    .adobe{
+        position: relative;
+        width: 100px;
+        margin-bottom: 10px;
+        margin-left: 150px;
+        margin-top: -30px;
+        transform: rotate(10deg);
+        z-index: -1;
+    }
+
+    .office{
+        position: relative;
+        width: 200px;
+        margin-bottom: 10px;
+        margin-left: 270px;
+        margin-top: -100px;
+        transform: rotate(-30deg);
+        z-index: -1;
+    }
+
+    .cut_pro{
+        position: relative;
+        width: 100px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-top: -160px;
+        z-index: -1;
+    }
+
+    .vegas{
+        position: relative;
+        width: 70px;
+        margin-bottom: 10px;
+        margin-left: 80px;
+        margin-top: -10px;
+        transform: rotate(-35deg);
+        z-index: -1;
+    }
+
+    .premiere{
+        position: relative;
+        width: 70px;
+        margin-bottom: 10px;
+        margin-left: 250px;
+        margin-top: -100px;
+        z-index: -1;
+    }
+
+    .movie{
+        position: relative;
+        width: 70px;
+        margin-bottom: 10px;
+        margin-left: 390px;
+        margin-top: -180px;
+        transform: rotate(-35deg);
+        z-index: -1;
+    }
+
+    ul{
+        list-style: none;
+        margin-top: -320px;
+       
+    }
+
+    .skills_description{
+        width: 50%;
+    }
+
+    .help{
+     font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        color:rgb(104, 74, 74);;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .help_list{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        color:rgb(104, 74, 74);;
+        text-align: left;
+        margin-top: 20px;
+        width: 500px;
+        margin-left: 60px;
+    }
+
+    .domain{
+        font-weight: bolder;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .domain::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: rgb(104, 74, 74);
+        transition: width .3s;
+    }
+
+    .domain:hover::after{
+        width: 100%;
+        transition: width .3s;
+    }
+
+    .domain_description{
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .skills{
+        width: 100%;
+    }
+
+    .skills_icon{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: plum;
+        z-index: -1;
+    }
+
+    .laptop{
+        margin-top: 50px;
+        position: relative;
+        width: 390px;
+        z-index: 1;
+    }
+
+    .photoshop{
+        position: relative;
+        width: 50px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        transform: rotate(10deg);
+        margin-bottom: -240px;
+        z-index: -1;
+    }
+
+    .illustrator{
+        position: relative;
+        width: 100px;
+        margin-bottom: -200px;
+        margin-left: 230px;
+        transform: rotate(-35deg);
+        z-index: -1;
+    }
+
+    .adobe{
+        position: relative;
+        width: 50px;
+        margin-bottom: -150px;
+        margin-left: 150px;
+        transform: rotate(10deg);
+        z-index: -1;
+    }
+
+    .office{
+        position: relative;
+        width: 80px;
+        margin-bottom: -230px;
+        margin-left: 220px;
+        transform: rotate(-30deg);
+        z-index: -1;
+    }
+
+    .cut_pro{
+        position: relative;
+        width: 70px;
+        margin-bottom: -170px;
+        margin-left: 40px;
+        z-index: -1;
+    }
+
+    .vegas{
+        position: relative;
+        width: 50px;
+        margin-bottom: -270px;
+        margin-left: 30px;
+        transform: rotate(-35deg);
+        z-index: -1;
+    }
+
+    .premiere{
+        position: relative;
+        width: 70px;
+        margin-bottom: -150px;
+        margin-left: 130px;
+        z-index: -1;
+    }
+
+    .movie{
+        position: relative;
+        width: 50px;
+        margin-bottom: -170px;
+        margin-left: 240px;
+        transform: rotate(-35deg);
+        z-index: -1;
+    }
+
+    ul{
+        list-style: none;
+        margin-top: -320px;
+       
+    }
+
+    .skills_description{
+        width: 100%;
+    }
+
+    .help{
+        font-family: 'Raleway', sans-serif;
+           font-weight: bolder;
+           color:rgb(104, 74, 74);;
+           text-align: center;
+           margin-top: 30px;
+       }
+
+       .help_list{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        color:rgb(104, 74, 74);
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .domain{
+        font-weight: bolder;
+        font-size: 30px;
+        margin-bottom: 20px;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: rgb(104, 74, 74);
+    }
+
+    .domain_description{
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align:justify;
+    }
+}
