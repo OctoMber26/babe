@@ -1,4 +1,4 @@
-https://awesome-haibt-165ecc.netlify.app
+https://cocky-brattain-db2497.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
