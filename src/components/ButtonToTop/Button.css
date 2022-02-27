@@ -31,6 +31,7 @@
     }
 
     .back-to-top {
+        display: block;
       width: 10%;
       margin: auto auto;
         position: fixed;
