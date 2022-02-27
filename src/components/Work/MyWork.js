@@ -41,7 +41,7 @@ const Work=()=>{
     return(
         <Fragment>
         <div id="work" className="container text-center">
-            <h3 className="post-heading display-4 p-5 work_title">Press on a section bellow to see a bit from my Work</h3>
+            <h3 className="post-heading display-4 p-5 work_title">Press on a section bellow to see a bit of my Work</h3>
         <div className="container-fluid mb-5">
             <div className="row mb-5">
                 <div onClick={ShowPhotoshop} className="col-lg-5 text-start col-md-7 col-sm-12  photoshop_section">
